@@ -1,0 +1,3 @@
+[submodule "themes/DeepThough"]
+	path = themes/DeepThough
+	url = git@github.com:RatanShreshtha/DeepThought.git
