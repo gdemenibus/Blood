@@ -1,11 +1,28 @@
 @charset "utf-8"
+// Navigate back to files
+$font-path: "./font"
 
-// Import a Google Font
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+// Import local font
+@font-face 
+    font-family: 'Infini'
+    src:   url('#{$font-path}/01_Regular/infini-regular.otf') format(opentype)
+    font-style: normal
+    font-weight: 4000
+@font-face
+    font-family: 'Infini'
+    src:   url('#{$font-path}/02_Italic/infini-italic.otf') format(opentype)
+    font-style: normal
+    font-weight: italic
 
+@font-face
+    font-family: 'Infini'
+    src:   url('#{$font-path}/03_Bold/infini-bold.otf') format(opentype)
+    font-style: normal
+    font-weight: bold
 // Update Bulma's global variables
-$family-sans-serif: "Jost", sans-serif
+
 $footer-padding: 1.0rem 2.5rem
+$family-sans-serif: "Infini", sans-serif
 
 html
     scroll-behavior: smooth
