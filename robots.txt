@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://gdemenibus.github.io/Blood/sitemap.xml
